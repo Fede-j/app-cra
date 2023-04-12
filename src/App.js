@@ -2,12 +2,16 @@
 import Header from  "../src/componentes/Header";
 import Footer from "../src/componentes/Footer";
 import Main from "../src/componentes/Main"
+import NavBar from "../src/componentes/NavBar"
+import ItemListContainer from "./componentes/ItemListContainer";
 
 function App() {
   return (
   <>
   <Header />
-  <Main titulo="bienvenido"/>
+  <NavBar/>
+  <Main titulo="Main"/>
+  <ItemListContainer greeting="Contenido Greeting"/>
   <Footer/>
   </>
   )

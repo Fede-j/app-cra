@@ -6,7 +6,7 @@ const Main = (props) => {
         <main>
             <h2>{props.titulo}</h2>
             <Button onClick={()=>{console.log("click")}}>Click</Button>
-            <img src="/imagenes/logo192.png"/>
+            
         </main>
     )
 }
